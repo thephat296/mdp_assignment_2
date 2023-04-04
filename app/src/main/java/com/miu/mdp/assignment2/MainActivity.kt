@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             binding.root.setBackgroundColor(randomColor.invoke())
         }
         binding.ibLogo.setOnClickListener {
-            binding.ibLogo.setBackgroundColor(randomColor.invoke())
+            it.setBackgroundColor(randomColor.invoke())
         }
     }
 }
